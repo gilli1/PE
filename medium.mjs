@@ -12,9 +12,10 @@ if(antwoord == "Parijs"){
     console.log("Dit is juist!")
     teller++
 }
+
 else {
     console.log("Je antwoorde: " + antwoord)
-    console.log("Dit is fout.")
+    console.log("Dit is fout. ")
 }
 
 let antwoord2 = parseFloat(await userInput.question("Hoeveel planeten zijn er in ons zonnestelsel? "))
