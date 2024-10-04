@@ -10,6 +10,7 @@ for (let breedteteller = 0; breedteteller < tellerhoogte; breedteteller++) {
 process.stdout.write("*")
 } 
 
+
 console.log("")
 }
 process.exit();
