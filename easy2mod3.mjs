@@ -1,3 +1,5 @@
-for (let teller = 1; teller <= 10; teller++) {
-    console.log(5 * teller)
+for (let teller = 1; teller <= 20; teller++) {
+    if (teller % 2 == 0) { 
+        console.log(teller);
+    }
 }
